@@ -14,15 +14,15 @@ on:
 
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp-10.0-deprecated
-  DEVICE: X6710
+  DEVICE: Infinix-X6710
   DT_LINK: https://github.com/hunter61727/android_device_infinix_Infinix-X6710
-  DT_PATH: device/infinix/Infinix-X6710
+  DT_PATH: device/Infinix-X6710
   TARGET: recoveryimage
   TZ: Asia/manila
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04.2
 
     steps:
        - name: Checkout
