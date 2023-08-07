@@ -21,7 +21,7 @@ env:
   TZ: Asia/manila
 
 jobs:
-  build:
+  build: boot
     runs-on: ubuntu-22.04.2
 
     steps:
