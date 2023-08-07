@@ -14,10 +14,10 @@ on:
 
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp-10.0-deprecated
-  DEVICE: KD7
+  DEVICE: X6710
   DT_LINK: https://github.com/hunter61727/android_device_infinix_Infinix-X6710
-  DT_PATH: device/tecno/KD7
-  TARGET: recoveryimage
+  DT_PATH: 
+device/infinix/Infinix-X6710  TARGET: recoveryimage
   TZ: Asia/manila
 
 jobs:
