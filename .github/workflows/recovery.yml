@@ -17,7 +17,7 @@ env:
   DEVICE: Infinix-X6710
   DT_LINK: https://github.com/hunter61727/android_device_infinix_Infinix-X6710
   DT_PATH: device/Infinix-X6710
-  TARGET: recoveryimage
+  TARGET: bootimage
   TZ: Asia/manila
 
 jobs:
