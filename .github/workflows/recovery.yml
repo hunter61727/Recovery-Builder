@@ -64,5 +64,6 @@ jobs:
          with:
           tag_name: TWRP_10.0
           name: TWRP-X6710
-          files: | 
-            work/out/target/product/X6710/recovery.img
+          files:  work/out/target/product/X6710/recovery.img
+          
+            
